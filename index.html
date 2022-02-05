@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./stylesheet/stylesheet.css">
+</head>
+<body>
+    <header>
+        <h4>Header</h4>
+    </header>
+    <main>
+        <div class="">
+            <div class="">
+        <section>
+            <h4>Section</h4>
+        </section>
+        <article>
+            <h4>Article</h4>
+        </article></div>
+        
+        <aside>
+            <h4>Aside</h4>
+        </aside>
+        </div>
+    </main>
+    <footer>
+        <h4>Footer</h4>
+    </footer>
+    <div class="fa">
+        <span class="fa fa-angle-up"></span>
+    </div>
+    <script>
+        let t=document.querySelector(".fa"); t.addEventListener("click", ()=>{
+            scroll(0,0)
+        })
+        addEventListener("scroll", (e)=>{
+            if(scrollY===0){
+                t.style="opacity: 0; transition: all ease-out .2s;";
+            }
+            else{
+                t.style="opacity: 1; transition: all ease-in .2s;";
+            }
+        })
+    </script>
+</body>
+</html>
