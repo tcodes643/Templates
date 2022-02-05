@@ -69,6 +69,6 @@ body div.fa {
   color: white;
 }
 body div.fa:hover {
-  transform: rotate(180deg);
+  transform: rotate(360deg);
   transition: all ease-in-out 0.3s;
 }
